@@ -1,33 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Simple Calculator</title>
+  <title>Calculator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="calculator">
-    <input type="text" id="display" disabled>
-    <br>
-    <button onclick="clearDisplay()">C</button>
-    <button onclick="append('7')">7</button>
-    <button onclick="append('8')">8</button>
-    <button onclick="append('9')">9</button>
-    <br>
-    <button onclick="append('4')">4</button>
-    <button onclick="append('5')">5</button>
-    <button onclick="append('6')">6</button>
-    <button onclick="append('+')">+</button>
-    <br>
-    <button onclick="append('1')">1</button>
-    <button onclick="append('2')">2</button>
-    <button onclick="append('3')">3</button>
-    <button onclick="append('-')">-</button>
-    <br>
-    <button onclick="append('0')">0</button>
-    <button onclick="append('*')">*</button>
-    <button onclick="append('/')">/</button>
-    <button onclick="calculate()">=</button>
-  </div>
+  <h1>Simple Calculator</h1>
+  <input type="number" id="num1"> +
+  <input type="number" id="num2">
+  <button onclick="add()">Calculate</button>
+  <p id="result"></p>
 
   <script src="script.js"></script>
 </body>
