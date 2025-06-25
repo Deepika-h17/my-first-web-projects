@@ -1,4 +1,3 @@
-# My First Web Projects 🚀
 
 Hi! I'm Deepika — an aspiring Full Stack Web Developer currently learning HTML, CSS, and JavaScript.
 
@@ -11,3 +10,4 @@ This repository contains my very first beginner projects to practice and grow my
 3. **Simple Calculator** – A basic calculator using JavaScript  
 
 Stay tuned for more updates! 🌱
+https://deepika-h17.github.io/my-first-web-projects/calculator.html
